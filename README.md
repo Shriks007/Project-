@@ -8,6 +8,7 @@ git commit -am "initial commit"
 
 git push origin main
 
+## Error
 del C:\xampp\htdocs\Project-\.git\index.lock
 
 git add --renormalize .

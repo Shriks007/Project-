@@ -14,7 +14,7 @@ http://localhost/phpmyadmin/
 6. Insert this values and enter
 
 
-This link for oprn the project web
+## This link for oprn the project web
 http://localhost/Project-/Resumebuilder/
 ## update to github
 
@@ -24,7 +24,7 @@ git commit -am "initial commit"
 
 git push origin main
 
-## Error
+#### Error
 del C:\xampp\htdocs\Project-\.git\index.lock
 
 git add --renormalize .

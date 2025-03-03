@@ -10,7 +10,7 @@ http://localhost/phpmyadmin/
 3. Create new database 
 4. database name :- 'resumebuilder'
 5. Table name :- 'users' and create 
-5. ![Alt Text](../Project-/Table structure.png)
+5. ![Alt Text](Table structure.png)
 6. Insert this values and enter
 
 

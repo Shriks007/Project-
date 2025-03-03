@@ -9,8 +9,16 @@ public function setError($msg)
 }
 public function error()
 {
-   
+   if(isset( $_SESSION['error']))
+   {
+      echo "Swal.fire(null,".$_SESSION['error'].",'success')";
+   }
+}
+public function setAlert($msg)
+{
+   $_SESSION['alert']=$msg;
 }
 }
+
 $fn = new functions();
 ?>

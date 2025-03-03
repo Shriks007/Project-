@@ -14,7 +14,7 @@ if($_POST)
         $email_id=$db->real_escape_string($post['email_id']);
         $password=md5($db->real_escape_string($post['password']));
 
-        $result=$db->query("SELECT COUNT(*) sa user FORM users WHERE (email_id='$email_id' && password='$password')");
+        $result=$db->query("SELECT COUNT(*) as user FROM users WHERE (email_id='$email_id' && password='$password')");
 
         $result =$result->fetch_assoc();
 

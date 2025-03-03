@@ -1,5 +1,5 @@
 <?php
-require './assets/class/function.class.php';
+require '../assets/class/function.class.php';
 
 ?><!doctype html>
 <html lang="en">

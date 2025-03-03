@@ -1,4 +1,5 @@
 <?php 
+session_start();
 class functions{
    public function redirect($address){
    header("location:".$address);
@@ -11,7 +12,7 @@ public function error()
 {
    if(isset( $_SESSION['error']))
    {
-      echo "Swal.fire(null,".$_SESSION['error'].",'success')";
+      echo "Swal.fire('','".$_SESSION['error']."','success')";
    }
 }
 public function setAlert($msg)

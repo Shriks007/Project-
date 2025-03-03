@@ -3,7 +3,7 @@ class Database
 {
 private $host = 'localhost';
 private $username = 'root'; 
-private $database = 'Resumebuilder';
+private $database = 'resumebuilder';
 private $password = '';
 private $db =null;
 function __construct()

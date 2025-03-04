@@ -1,7 +1,9 @@
 <?php
-require '../assets/class/function.class.php';
+require './assets/class/database.class.php';
 
-?><!doctype html>
+require './assets/class/function.class.php';
+?>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -10,7 +12,7 @@ require '../assets/class/function.class.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title><?=$title?></title>
+    <title><?=@$title?></title>
 
 
 
@@ -26,7 +28,7 @@ require '../assets/class/function.class.php';
 
     <style>
         body {
-            height: 100vh;
+          
             background: rgb(249, 249, 249);
             background: radial-gradient(circle, rgba(249, 249, 249, 1) 0%, rgba(240, 232, 127, 1) 49%, rgba(246, 243, 132, 1) 100%);
 
@@ -63,5 +65,4 @@ require '../assets/class/function.class.php';
 
 </head>
 
-<body class="d-flex align-items-center">
-
+<body class="">
